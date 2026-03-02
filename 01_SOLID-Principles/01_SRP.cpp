@@ -16,11 +16,11 @@ class Product{
 
 class ShoppingCart{
     private:
-    //pointer to the product objects
+    //pointer to the product objects 
     vector<Product*> products;
 
     public:
-    //this fn expects an address of the product
+    //this function expects an address of the product
      void addProduct(Product* p){
         products.push_back(p);
      }
