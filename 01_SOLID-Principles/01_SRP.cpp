@@ -16,7 +16,7 @@ class Product{
 
 class ShoppingCart{
     private:
-    //pointer to the product objects 
+    //pointer to the product objects   
     vector<Product*> products;
 
     public:
