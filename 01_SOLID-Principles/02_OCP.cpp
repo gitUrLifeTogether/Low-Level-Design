@@ -58,8 +58,9 @@ int main(){
 /* class TaxCalculator
 {
 public:
-this violates the OCP cause if we have to add another region(ex. UK, germany etc) we need
- to modify this code
+
+this violates the OCP cause if we have to add another region(ex. UK, germany etc) 
+we need to modify this code
 
     double CalculateTax(string region, double amount)
     {
