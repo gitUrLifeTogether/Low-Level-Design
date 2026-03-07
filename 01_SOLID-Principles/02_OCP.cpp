@@ -78,6 +78,7 @@ we need to modify this code
         {
             return amount + amount * 0.12;
         }
+        
         else
         {
             return amount; // No tax for unknown region
