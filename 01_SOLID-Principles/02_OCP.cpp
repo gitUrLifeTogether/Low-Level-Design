@@ -68,7 +68,6 @@ we need to modify this code
             return amount + amount * 0.18;
         }
            
-
         else if (region == "USA")
         {
             return amount + amount * 0.08;
@@ -79,6 +78,8 @@ we need to modify this code
             return amount + amount * 0.12;
         }
         
+
+
         else
         {
             return amount; // No tax for unknown region
