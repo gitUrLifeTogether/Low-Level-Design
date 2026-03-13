@@ -21,6 +21,8 @@ class ShoppingCart{
 
     public:
     //this function expects an address of the product
+    //
+    //
      void addProduct(Product* p){
         products.push_back(p);
      }
