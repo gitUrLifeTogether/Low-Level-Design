@@ -16,6 +16,8 @@ private:
     
 public:
     // Constructor with only required parameter (1-arg)
+
+    
     HttpRequest(const string& url) {
         this->url = url;
         this->method = "GET";       // Default method
