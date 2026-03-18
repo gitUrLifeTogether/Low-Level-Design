@@ -67,7 +67,7 @@ public:
         this->body = body;
     }
     
-    // Setters (leads to mutable object)
+    // Setters (leads to mutable object)- in cases we may need imutability
     void setUrl(const string& url) {
         this->url = url;
     }
