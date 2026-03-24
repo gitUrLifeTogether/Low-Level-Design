@@ -3,6 +3,8 @@
 
 using namespace std;
 // this is an example thaat violates single responsibility principle
+
+
 class Product{
     public:
      double price;
@@ -61,5 +63,3 @@ int main(){
 
    }
 
-
-   
